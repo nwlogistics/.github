@@ -1,7 +1,7 @@
 name: Issue report
 description: Report a problem you encountered
 title: "fix: "
-labels: ["fix"]
+labels: ["fix", "bug"]
 body:
   - type: markdown
     attributes:
