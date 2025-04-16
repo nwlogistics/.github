@@ -32,7 +32,6 @@ body:
       value: |
         *
         *
-        *
     validations:
       required: true
 
