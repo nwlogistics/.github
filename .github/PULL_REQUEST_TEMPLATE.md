@@ -13,15 +13,26 @@
 ### Checkout the branch
 
 ```bash
-git fetch origin
-git checkout <your-branch>
+git fetch origin pull/<PR_NUMBER>/head
+git checkout FETCH_HEAD
 ```
 
 ### Reproduce changes
 
 *
 *
-*
+
+### Switch back to previous branch
+
+After testing the PR, switch back to the previous branch as it's in a detached `HEAD` state that's decoupled from tracked changes.
+
+```bash
+# switch to previous branch
+git switch -
+
+# switch to main
+git switch main
+```
 
 ## Checklist
 
